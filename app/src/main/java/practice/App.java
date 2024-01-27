@@ -12,8 +12,13 @@ public class App {
         return "CSC210.";
     }
 
+    public String getFarewell(){
+        return "Goodbye World";
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
         System.out.println(new App().getName());
+        System.out.println(new App().getFarewell());
     }
 }
