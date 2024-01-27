@@ -11,4 +11,8 @@ public class AppTest {
         App classUnderTest = new App();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
+    @Test public void appHasName() {
+        App classUnderTest1 = new App();
+        assertNotNull("app should have a name", classUnderTest1.getName());
+    }
 }

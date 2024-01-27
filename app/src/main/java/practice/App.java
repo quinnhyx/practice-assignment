@@ -8,7 +8,12 @@ public class App {
         return "Hello World!";
     }
 
+    public String getName(){
+        return "CSC210.";
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        System.out.println(new App().getName());
     }
 }
